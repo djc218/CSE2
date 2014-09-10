@@ -1,4 +1,7 @@
 /*
+Daniel Colville
+9/10/2014
+CSE 2
 This program should calculate the cost of a shopping trip at Walmart
 based on the cost of each item we buy, the number of each item
 we buy, and the PA sales tax rate.  The result should be cut off 

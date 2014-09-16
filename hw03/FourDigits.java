@@ -32,7 +32,5 @@ public class FourDigits {
         int firstDigit=(int)(digitSource%10);
         System.out.println("The four digits are "+firstDigit+secondDigit
         +thirdDigit+lastDigit);
-        
-        
     }
 }

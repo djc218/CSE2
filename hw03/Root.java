@@ -16,7 +16,8 @@ public class Root {
         System.out.print("Enter a double and I print its cube root- " );
         //read double user entered
         double userInput=myScanner.nextDouble();
-        //next 6 lines take input and estimate the cube root by refining guess
+        //next 6 lines take input and estimate the cube root first by dividing by 3
+        //and then improving th accuracy of the guess by using the previous guess
         double guess=userInput/3;
         guess=(2*guess*guess*guess+userInput)/(3*guess*guess);
         guess=(2*guess*guess*guess+userInput)/(3*guess*guess);

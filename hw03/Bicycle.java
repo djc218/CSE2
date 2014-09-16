@@ -13,7 +13,7 @@ public class Bicycle {
     public static void main(String[] args) {
         //declare and initialize scanner to take keyboard input
         Scanner myScanner = new Scanner(System.in);
-        //prompts user to enter counts and stores result in variable
+        //prompts user to enter counts and stores result in variable tripCounts
         System.out.print("enter the number of counts:");
         int tripCounts=myScanner.nextInt();
         //asks user for number of seconds then stores result in a variable

@@ -13,7 +13,7 @@ public class FourDigits {
         //declare scanner and intialize it
         Scanner myScanner= new Scanner(System.in);
         //prompt user to enter double
-        System.out.print("please enter a double to have first four digits" + 
+        System.out.print("please enter a double to have first four digits " + 
         "after decimal printed:");
         //read double user typed and set to variable
         double digitSource=myScanner.nextDouble();

@@ -1,7 +1,7 @@
 /*
 Daniel Colville
 CSE 2 10/14/2014
-This program takes a user inputed double and estimates its square root using the midpoint
+This program takes a user inputed double and estimates its square root using the bisection
 method.  The program checks that the input is a double and greater than 0.  A loop 
 will ensure that the method is run enough times until the difference between low and high is 
 less than or equal to 0.0000001
@@ -40,7 +40,7 @@ public class Root {
                 if((middle*middle)>=userInput) {
                     high=middle;
                 }
-                //if not true, set low=middle
+                //if middle squared is less than input, set low=middle
                 else {
                     low=middle;
                 }

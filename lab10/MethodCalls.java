@@ -69,7 +69,7 @@ public class MethodCalls{
             inputOne/=10;
         }
         //if output is negative, make it positive
-        if(output<0) {
+        if(inputTwo<0) {
             inputTwo*=-1;
         }
         //return output
